@@ -1,0 +1,30 @@
+class Solution {
+    public static void solve(int[] nums, int idx, ArrayList<Integer> list, HashSet<ArrayList<Integer>> ans){
+        if(list.size() == 3){
+            int sum = list.get(0) + list.get(1) + list.get(2);
+            if(sum == 0){
+                ans.add(new ArrayList<>(list));
+            }
+            return;
+        }
+
+        if(idx >= nums.length){
+            return;
+        }
+
+        list.add(nums[idx]);
+        solve(nums, idx + 1, list, ans);
+
+        list.remove(list.size() - 1);
+        solve(nums, idx + 1, list, ans);
+
+    }
+    public List<List<Integer>> threeSum(int[] nums) {
+        ArrayList<Integer> list = new ArrayList<>();
+        HashSet<ArrayList<Integer>> ans = new HashSet<>();
+        Arrays.sort(nums);
+        solve(nums, 0, list, ans);
+
+        return new ArrayList<>(ans);
+    }
+}
