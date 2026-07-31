@@ -3,16 +3,16 @@ class Solution {
 
     public int fib(int n) {
         memo = new int[n + 1];
-        return solve(n);
+        return dpMemo(n);
     }
 
-    int solve(int n) {
+    int dpMemo(int n) {
         if (n <= 1) return n;
 
         if (memo[n] != 0)
             return memo[n];
 
-        memo[n] = solve(n - 1) + solve(n - 2);
+        memo[n] = dpMemo(n - 1) + dpMemo(n - 2);
         return memo[n];
     }
 }
