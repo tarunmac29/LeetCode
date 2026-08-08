@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/tarunmac29/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/tarunmac29/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/tarunmac29/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0136-single-number](https://github.com/tarunmac29/LeetCode/tree/master/0136-single-number) |
 | [0704-binary-search](https://github.com/tarunmac29/LeetCode/tree/master/0704-binary-search) |
 | [0977-squares-of-a-sorted-array](https://github.com/tarunmac29/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 ## Hash Table
@@ -123,4 +124,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0704-binary-search](https://github.com/tarunmac29/LeetCode/tree/master/0704-binary-search) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/tarunmac29/LeetCode/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
