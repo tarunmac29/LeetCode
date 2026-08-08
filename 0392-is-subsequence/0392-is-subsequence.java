@@ -6,9 +6,7 @@ class Solution {
         int j = 0;
 
         while(i < s.length() && j < t.length()){
-            if(i > s.length()){
-                return true;
-            }
+            
             if(s.charAt(i) == t.charAt(j)){
                 i++;
             }
