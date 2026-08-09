@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/tarunmac29/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/tarunmac29/LeetCode/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/tarunmac29/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0125-valid-palindrome](https://github.com/tarunmac29/LeetCode/tree/master/0125-valid-palindrome) |
 | [0392-is-subsequence](https://github.com/tarunmac29/LeetCode/tree/master/0392-is-subsequence) |
 | [0876-middle-of-the-linked-list](https://github.com/tarunmac29/LeetCode/tree/master/0876-middle-of-the-linked-list) |
 | [0977-squares-of-a-sorted-array](https://github.com/tarunmac29/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/tarunmac29/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0022-generate-parentheses](https://github.com/tarunmac29/LeetCode/tree/master/0022-generate-parentheses) |
+| [0125-valid-palindrome](https://github.com/tarunmac29/LeetCode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/tarunmac29/LeetCode/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/tarunmac29/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0392-is-subsequence](https://github.com/tarunmac29/LeetCode/tree/master/0392-is-subsequence) |
