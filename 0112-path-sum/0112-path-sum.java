@@ -20,10 +20,12 @@ class Solution {
         }
 
         targetSum -= root.val;
-
         if(root.left == null && root.right == null){
-            return targetSum == 0;
+            if(targetSum == 0){
+                return true;
+            }
         }
+
 
         return hasPathSum(root.left, targetSum) || hasPathSum(root.right, targetSum);
     }
