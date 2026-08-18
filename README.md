@@ -143,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/tarunmac29/LeetCode/tree/master/0112-path-sum) |
 | [0226-invert-binary-tree](https://github.com/tarunmac29/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/tarunmac29/LeetCode/tree/master/0257-binary-tree-paths) |
+| [0572-subtree-of-another-tree](https://github.com/tarunmac29/LeetCode/tree/master/0572-subtree-of-another-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/tarunmac29/LeetCode/tree/master/0112-path-sum) |
 | [0226-invert-binary-tree](https://github.com/tarunmac29/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/tarunmac29/LeetCode/tree/master/0257-binary-tree-paths) |
+| [0572-subtree-of-another-tree](https://github.com/tarunmac29/LeetCode/tree/master/0572-subtree-of-another-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -169,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/tarunmac29/LeetCode/tree/master/0112-path-sum) |
 | [0226-invert-binary-tree](https://github.com/tarunmac29/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0257-binary-tree-paths](https://github.com/tarunmac29/LeetCode/tree/master/0257-binary-tree-paths) |
+| [0572-subtree-of-another-tree](https://github.com/tarunmac29/LeetCode/tree/master/0572-subtree-of-another-tree) |
 ## Binary Search
 |  |
 | ------- |
@@ -211,4 +214,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/tarunmac29/LeetCode/tree/master/0303-range-sum-query-immutable) |
+## String Matching
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/tarunmac29/LeetCode/tree/master/0572-subtree-of-another-tree) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/tarunmac29/LeetCode/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
