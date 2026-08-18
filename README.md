@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/tarunmac29/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/tarunmac29/LeetCode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/tarunmac29/LeetCode/tree/master/0268-missing-number) |
+| [0283-move-zeroes](https://github.com/tarunmac29/LeetCode/tree/master/0283-move-zeroes) |
 | [0704-binary-search](https://github.com/tarunmac29/LeetCode/tree/master/0704-binary-search) |
 | [0977-squares-of-a-sorted-array](https://github.com/tarunmac29/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 ## Hash Table
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/tarunmac29/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/tarunmac29/LeetCode/tree/master/0125-valid-palindrome) |
 | [0234-palindrome-linked-list](https://github.com/tarunmac29/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0283-move-zeroes](https://github.com/tarunmac29/LeetCode/tree/master/0283-move-zeroes) |
 | [0392-is-subsequence](https://github.com/tarunmac29/LeetCode/tree/master/0392-is-subsequence) |
 | [0876-middle-of-the-linked-list](https://github.com/tarunmac29/LeetCode/tree/master/0876-middle-of-the-linked-list) |
 | [0977-squares-of-a-sorted-array](https://github.com/tarunmac29/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
