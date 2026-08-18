@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/tarunmac29/LeetCode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/tarunmac29/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/tarunmac29/LeetCode/tree/master/0217-contains-duplicate) |
+| [0268-missing-number](https://github.com/tarunmac29/LeetCode/tree/master/0268-missing-number) |
 | [0704-binary-search](https://github.com/tarunmac29/LeetCode/tree/master/0704-binary-search) |
 | [0977-squares-of-a-sorted-array](https://github.com/tarunmac29/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 ## Hash Table
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/tarunmac29/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/tarunmac29/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/tarunmac29/LeetCode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/tarunmac29/LeetCode/tree/master/0268-missing-number) |
 ## Backtracking
 |  |
 | ------- |
@@ -61,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/tarunmac29/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/tarunmac29/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/tarunmac29/LeetCode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/tarunmac29/LeetCode/tree/master/0268-missing-number) |
 | [0977-squares-of-a-sorted-array](https://github.com/tarunmac29/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 ## Dynamic Programming
 |  |
@@ -86,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/tarunmac29/LeetCode/tree/master/0070-climbing-stairs) |
+| [0268-missing-number](https://github.com/tarunmac29/LeetCode/tree/master/0268-missing-number) |
 | [0509-fibonacci-number](https://github.com/tarunmac29/LeetCode/tree/master/0509-fibonacci-number) |
 ## Recursion
 |  |
@@ -165,12 +169,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/tarunmac29/LeetCode/tree/master/0268-missing-number) |
 | [0704-binary-search](https://github.com/tarunmac29/LeetCode/tree/master/0704-binary-search) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0136-single-number](https://github.com/tarunmac29/LeetCode/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/tarunmac29/LeetCode/tree/master/0191-number-of-1-bits) |
+| [0268-missing-number](https://github.com/tarunmac29/LeetCode/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/tarunmac29/LeetCode/tree/master/0338-counting-bits) |
 ## Divide and Conquer
 |  |
