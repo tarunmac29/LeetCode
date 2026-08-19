@@ -14,20 +14,25 @@
  * }
  */
 class Solution {
-    public static boolean isSame(TreeNode a, TreeNode b){
-        if(a == null && b == null) return true;
-
-        if(a == null || b == null) return false;
-
-        if(a.val != b.val) return false;
-
-        return isSame(a.left, b.left) && isSame(a.right, b.right);
-    }
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
-        if(root == null) return false;
-
-        if(isSame(root, subRoot)) return true;
-
-        return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot);
+        StringBuilder rootSerial = new StringBuilder();
+        StringBuilder subRootSerial = new StringBuilder();
+        
+        serialize(root, rootSerial);
+        serialize(subRoot, subRootSerial);
+        
+        return rootSerial.toString().contains(subRootSerial.toString());
+    }
+    
+    private void serialize(TreeNode node, StringBuilder sb) {
+        if (node == null) {
+            sb.append(",#");
+            return;
+        }
+        
+        sb.append(",").append(node.val);
+        
+        serialize(node.left, sb);
+        serialize(node.right, sb);
     }
 }
