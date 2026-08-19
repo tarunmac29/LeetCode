@@ -15,9 +15,7 @@
  */
 class Solution {
     public static boolean isSame(TreeNode a, TreeNode b){
-        if(a == null && b == null){
-            return true;
-        }
+        if(a == null && b == null) return true;
 
         if(a == null || b == null) return false;
 
@@ -31,6 +29,5 @@ class Solution {
         if(isSame(root, subRoot)) return true;
 
         return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot);
-        
     }
 }
