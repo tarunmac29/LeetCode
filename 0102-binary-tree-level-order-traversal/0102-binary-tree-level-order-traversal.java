@@ -14,24 +14,31 @@
  * }
  */
 class Solution {
-    public static void solve(TreeNode node, int depth, List<List<Integer>> list){
-        if(node == null) return;
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> ans = new ArrayList<>();
+        Queue<TreeNode> que = new LinkedList<>();
 
-        if(depth == list.size()){
-            list.add(new ArrayList<>());
+        if(root == null) return ans;
+
+        que.offer(root);
+
+        while(!que.isEmpty()){
+            int level = que.size();
+
+            List<Integer> list = new ArrayList<>();
+
+            for(int i = 0; i < level; i++){
+                TreeNode node = que.poll();
+
+                list.add(node.val);
+
+                if(node.left != null) que.offer(node.left);
+                if(node.right != null) que.offer(node.right);
+            }            
+
+            ans.add(list);
         }
 
-        list.get(depth).add(node.val);
-
-        solve(node.left, depth + 1, list);
-        solve(node.right, depth + 1, list);
-    }
-    public List<List<Integer>> levelOrder(TreeNode root) {
-        List<List<Integer>> list = new ArrayList<>();
-
-        if(root == null) return list;
-
-        solve(root, 0, list);
-        return list;
+        return ans;
     }
 }
