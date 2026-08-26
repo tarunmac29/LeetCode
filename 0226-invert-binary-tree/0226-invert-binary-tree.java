@@ -25,6 +25,5 @@ class Solution {
         invertTree(root.right);
 
         return root;
-
     }
 }
