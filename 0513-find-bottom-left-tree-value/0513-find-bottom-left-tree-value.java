@@ -20,20 +20,25 @@ class Solution {
         
         if(root == null) return 0;
 
-        que.offer(root);
+        List<List<Integer>> ans = new ArrayList<>();
 
-        TreeNode node = root;
+        que.offer(root);
 
         while(!que.isEmpty()){
             int level = que.size();
+            List<Integer> list = new ArrayList<>();
             for(int i = 0; i < level; i++){
-                node = que.poll();
+                TreeNode node = que.poll();
 
-                if(node.right != null) que.offer(node.right);
                 if(node.left != null) que.offer(node.left);
+                if(node.right != null) que.offer(node.right);
+
+                list.add(node.val);
             }
+
+            ans.add(list);
         }
 
-        return node.val;
+        return ans.get(ans.size() - 1).get(0);
     }
 }
