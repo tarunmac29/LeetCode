@@ -19,7 +19,7 @@ class Solution {
 
         if(root == null) return ans;
 
-        Queue<TreeNode> que = new LinkedList<>();
+        Queue<TreeNode> que = new ArrayDeque<>();
 
         que.offer(root);
 
