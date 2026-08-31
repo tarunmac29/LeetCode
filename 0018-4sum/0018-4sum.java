@@ -6,12 +6,10 @@ class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> result = new ArrayList<>();
         
-        // Handle edge case where a 4-element combination is impossible
         if (nums == null || nums.length < 4) {
             return result;
         }
         
-        // Sort the array to easily skip duplicates and use two pointers
         Arrays.sort(nums);
         int n = nums.length;
         
