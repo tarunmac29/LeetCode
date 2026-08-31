@@ -4,30 +4,31 @@ class Solution {
         int right = s.length() - 1;
 
         while(left <= right){
-            char lchar = s.charAt(left);
-            char rchar = s.charAt(right);
+            char lChar = s.charAt(left);
+            char rChar = s.charAt(right);
 
-            if(lchar >= 'A' && lchar <= 'Z'){
-                lchar = (char) (lchar + 32);
-            }else if(!((lchar >= 'a' && lchar <= 'z') || (lchar >= '0' && lchar <= '9'))){
+            if(lChar >= 'A' && lChar <= 'Z'){
+                lChar = (char) (lChar + 32);
+            }else if(!((lChar >= 'a' && lChar <= 'z') || (lChar >= '0' && lChar <= '9'))){
                 left++;
                 continue;
             }
 
-            if(rchar >= 'A' && rchar <= 'Z'){
-                rchar = (char) (rchar + 32);
-            }else if(!((rchar >= 'a' && rchar <= 'z') || (rchar >= '0' && rchar <= '9'))){
+            if(rChar >= 'A' && rChar <= 'Z'){
+                rChar = (char) (rChar + 32);
+            }else if(!((rChar >= 'a' && rChar <= 'z') || (rChar >= '0' && rChar <= '9'))){
                 right--;
                 continue;
             }
 
-            if(lchar != rchar) {
+            if(lChar != rChar){
                 return false;
             }
 
             left++;
             right--;
         }
+
         return true;
     }
 }
