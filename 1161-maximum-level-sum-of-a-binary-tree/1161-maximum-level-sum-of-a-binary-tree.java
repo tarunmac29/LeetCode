@@ -15,8 +15,6 @@
  */
 class Solution {
     public int maxLevelSum(TreeNode root) {
-        List<Integer> levelSum = new ArrayList<>();
-
         if(root == null) return 0;
 
         Queue<TreeNode> que = new LinkedList<>();
@@ -48,10 +46,7 @@ class Solution {
 
             curLevel++;
 
-            // levelSum.add(sum);
         }
-
-        // return levelSum.indexOf(Collections.max(levelSum)) + 1;
         return maxLevel;
     }
 }
