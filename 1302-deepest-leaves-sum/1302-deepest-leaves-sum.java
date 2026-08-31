@@ -1,31 +1,43 @@
-import java.util.ArrayList;
-import java.util.List;
-
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 class Solution {
-    // A dynamic list to store the sum of each level
-    private List<Integer> levelSums;
-
     public int deepestLeavesSum(TreeNode root) {
-        levelSums = new ArrayList<>();
-        calculateSums(root, 0);
-        
-        // The last element in the list will be the deepest level's sum
-        return levelSums.get(levelSums.size() - 1);
-    }
+        if(root == null) return 0;
 
-    private void calculateSums(TreeNode node, int depth) {
-        if (node == null) return;
+        int deepLevelsum = 0;
+        Queue<TreeNode> que = new ArrayDeque<>();
 
-        // If this is the first time reaching this depth, add a new level sum
-        if (depth == levelSums.size()) {
-            levelSums.add(node.val);
-        } else {
-            // Otherwise, add the node's value to the existing sum for this depth
-            levelSums.set(depth, levelSums.get(depth) + node.val);
+        que.offer(root);
+
+        while(!que.isEmpty()){
+            int level = que.size();
+
+            int sum = 0;
+
+            for(int i = 0; i < level; i++){
+                TreeNode node = que.poll();
+
+                if(node.left != null) que.offer(node.left);
+                if(node.right != null) que.offer(node.right);
+
+                sum += node.val;
+            }
+
+            deepLevelsum = sum;
         }
-
-        // Standard DFS traversal
-        calculateSums(node.left, depth + 1);
-        calculateSums(node.right, depth + 1);
+        return deepLevelsum;
     }
 }
