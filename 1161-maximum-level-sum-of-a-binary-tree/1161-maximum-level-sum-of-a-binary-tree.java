@@ -23,6 +23,10 @@ class Solution {
 
         que.offer(root);
 
+        int maxSum = Integer.MIN_VALUE;
+        int curLevel = 1;
+        int maxLevel = 0;
+
         while(!que.isEmpty()){
             int level = que.size();
 
@@ -37,9 +41,17 @@ class Solution {
                 sum += node.val;                
             }
 
-            levelSum.add(sum);
+            if(sum > maxSum){
+                maxSum = sum;
+                maxLevel = curLevel;
+            }
+
+            curLevel++;
+
+            // levelSum.add(sum);
         }
 
-        return levelSum.indexOf(Collections.max(levelSum)) + 1;
+        // return levelSum.indexOf(Collections.max(levelSum)) + 1;
+        return maxLevel;
     }
 }
