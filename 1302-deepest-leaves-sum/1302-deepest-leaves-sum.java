@@ -18,7 +18,7 @@ class Solution {
         if(root == null) return 0;
 
         int deepLevelsum = 0;
-        Queue<TreeNode> que = new LinkedList<>();
+        Queue<TreeNode> que = new ArrayDeque<>();
 
         que.offer(root);
 
