@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/tarunmac29/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/tarunmac29/LeetCode/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/tarunmac29/LeetCode/tree/master/0070-climbing-stairs) |
+| [0115-distinct-subsequences](https://github.com/tarunmac29/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/tarunmac29/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/tarunmac29/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0338-counting-bits](https://github.com/tarunmac29/LeetCode/tree/master/0338-counting-bits) |
@@ -131,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/tarunmac29/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0022-generate-parentheses](https://github.com/tarunmac29/LeetCode/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/tarunmac29/LeetCode/tree/master/0032-longest-valid-parentheses) |
+| [0115-distinct-subsequences](https://github.com/tarunmac29/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/tarunmac29/LeetCode/tree/master/0125-valid-palindrome) |
 | [0205-isomorphic-strings](https://github.com/tarunmac29/LeetCode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/tarunmac29/LeetCode/tree/master/0242-valid-anagram) |
