@@ -8,7 +8,7 @@
  * }
  */
 class Solution {
-    public static void markParent(TreeNode root, HashMap<TreeNode,TreeNode> pt){
+    public static void markParent(TreeNode root, Map<TreeNode,TreeNode> pt){
         Queue<TreeNode> que = new ArrayDeque<>();
 
         que.offer(root);
@@ -28,10 +28,10 @@ class Solution {
         }
     }
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
-        HashMap<TreeNode, TreeNode> pt = new HashMap<>();
+        Map<TreeNode, TreeNode> pt = new HashMap<>();
         markParent(root, pt);
 
-        HashMap<TreeNode, Boolean> visited = new HashMap<>();
+        Map<TreeNode, Boolean> visited = new HashMap<>();
 
         Queue<TreeNode> que = new ArrayDeque<>();
 
