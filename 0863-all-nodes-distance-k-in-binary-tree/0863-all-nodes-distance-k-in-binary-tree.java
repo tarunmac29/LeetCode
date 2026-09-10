@@ -8,7 +8,7 @@
  * }
  */
 class Solution {
-    public static void markParent(TreeNode root, Map<TreeNode,TreeNode> pt){
+    public void markParent(TreeNode root, Map<TreeNode, TreeNode> pt){
         Queue<TreeNode> que = new ArrayDeque<>();
 
         que.offer(root);
@@ -32,7 +32,6 @@ class Solution {
         markParent(root, pt);
 
         Map<TreeNode, Boolean> visited = new HashMap<>();
-
         Queue<TreeNode> que = new ArrayDeque<>();
 
         que.offer(target);
@@ -54,6 +53,7 @@ class Solution {
                     que.offer(node.left);
                     visited.put(node.left, true);
                 }
+
                 if(node.right != null && visited.get(node.right) == null){
                     que.offer(node.right);
                     visited.put(node.right, true);
@@ -63,6 +63,7 @@ class Solution {
                     que.offer(pt.get(node));
                     visited.put(pt.get(node), true);
                 }
+
             }
         }
 
@@ -73,6 +74,5 @@ class Solution {
         }
 
         return ans;
-
     }
 }
