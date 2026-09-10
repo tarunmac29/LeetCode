@@ -14,58 +14,40 @@
  * }
  */
 class Solution {
-    public void markParent(TreeNode root, Map<TreeNode, TreeNode> pt){
-        if (root == null) return;
-        Queue<TreeNode> que = new ArrayDeque<>();
+    private static class Result {
+        TreeNode node;
+        int depth;
 
-        que.offer(root);
-        pt.put(root, null);
-
-        while(!que.isEmpty()){
-            TreeNode node = que.poll();
-            if(node.left != null){
-                que.offer(node.left);
-                pt.put(node.left, node);
-            }
-
-            if(node.right != null){
-                que.offer(node.right);
-                pt.put(node.right, node);
-            }
+        Result(TreeNode node, int depth) {
+            this.node = node;
+            this.depth = depth;
         }
     }
+
     public TreeNode lcaDeepestLeaves(TreeNode root) {
-        Map<TreeNode, TreeNode> pt = new HashMap<>();
-        markParent(root,pt);
+        return dfs(root).node;
+    }
 
-        Queue<TreeNode> que = new ArrayDeque<>();
-
-        que.offer(root);
-
-        List<TreeNode> deepestLeaves = new ArrayList<>();
-        
-        while(!que.isEmpty()){
-            int size = que.size();
-            deepestLeaves.clear();
-            
-            for (int i = 0; i < size; i++) {
-                TreeNode node = que.poll();
-                deepestLeaves.add(node);
-                
-                if(node.left != null) que.offer(node.left);
-                if(node.right != null) que.offer(node.right);
-            }
+    private Result dfs(TreeNode node) {
+        if (node == null) {
+            return new Result(null, 0);
         }
 
-       Set<TreeNode> currentSet = new HashSet<>(deepestLeaves);
-        while (currentSet.size() > 1) {
-            Set<TreeNode> parentsSet = new HashSet<>();
-            for (TreeNode node : currentSet) {
-                parentsSet.add(pt.get(node));
-            }
-            currentSet = parentsSet;
+        Result left = dfs(node.left);
+        Result right = dfs(node.right);
+
+        // If both subtrees have the same max depth, this current node 
+        // is the deepest common ancestor for the leaves below it.
+        if (left.depth == right.depth) {
+            return new Result(node, left.depth + 1);
         }
-        
-        return currentSet.iterator().next();
+
+        // If one side is deeper, it contains the target LCA. 
+        // Propagate that side's LCA up with the incremented depth.
+        if (left.depth > right.depth) {
+            return new Result(left.node, left.depth + 1);
+        } else {
+            return new Result(right.node, right.depth + 1);
+        }
     }
 }
