@@ -87,6 +87,6 @@ class Solution {
             }
         }
 
-        return cur - 1;
+        return cur == 0 ? 0 : cur - 1;
     }
 }
