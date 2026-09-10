@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/tarunmac29/LeetCode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/tarunmac29/LeetCode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/tarunmac29/LeetCode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/tarunmac29/LeetCode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/tarunmac29/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Backtracking
 |  |
@@ -217,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/tarunmac29/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1302-deepest-leaves-sum](https://github.com/tarunmac29/LeetCode/tree/master/1302-deepest-leaves-sum) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/tarunmac29/LeetCode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/tarunmac29/LeetCode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -253,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/tarunmac29/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1302-deepest-leaves-sum](https://github.com/tarunmac29/LeetCode/tree/master/1302-deepest-leaves-sum) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/tarunmac29/LeetCode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/tarunmac29/LeetCode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -276,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/tarunmac29/LeetCode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/tarunmac29/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1302-deepest-leaves-sum](https://github.com/tarunmac29/LeetCode/tree/master/1302-deepest-leaves-sum) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/tarunmac29/LeetCode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/tarunmac29/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Binary Tree
 |  |
@@ -316,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/tarunmac29/LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1302-deepest-leaves-sum](https://github.com/tarunmac29/LeetCode/tree/master/1302-deepest-leaves-sum) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/tarunmac29/LeetCode/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/tarunmac29/LeetCode/tree/master/2385-amount-of-time-for-binary-tree-to-be-infected) |
 ## Binary Search
 |  |
 | ------- |
