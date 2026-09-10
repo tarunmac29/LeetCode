@@ -14,24 +14,25 @@
  * }
  */
 class Solution {
-    public TreeNode findNode(TreeNode current, int target) {
-        if (current == null) {
-            return null;
-        }
+    // public TreeNode findNode(TreeNode current, int target) {
+    //     if (current == null) {
+    //         return null;
+    //     }
 
-        if (current.val == target) {
-            return current;
-        }
+    //     if (current.val == target) {
+    //         return current;
+    //     }
 
-        TreeNode foundNode = findNode(current.left, target);
+    //     TreeNode foundNode = findNode(current.left, target);
 
-        if (foundNode != null) {
-            return foundNode;
-        }
+    //     if (foundNode != null) {
+    //         return foundNode;
+    //     }
 
-        return findNode(current.right, target);
-    }
-    public void markParent(TreeNode root, Map<TreeNode, TreeNode> pt){
+    //     return findNode(current.right, target);
+    // }
+    TreeNode targetNode = null;
+    public void markParent(TreeNode root, Map<TreeNode, TreeNode> pt, int start){
         Queue<TreeNode> que = new ArrayDeque<>();
 
         que.offer(root);
@@ -39,6 +40,10 @@ class Solution {
 
         while(!que.isEmpty()){
             TreeNode node = que.poll();
+
+            if(node.val == start){
+                targetNode = node;
+            }
 
             if(node.left != null){
                 que.offer(node.left);
@@ -52,16 +57,14 @@ class Solution {
     }
     public int amountOfTime(TreeNode root, int start) {
         Map<TreeNode, TreeNode> pt = new HashMap<>();
-        markParent(root, pt);
-
-        TreeNode str = findNode(root, start);
+        markParent(root, pt, start);
 
         Map<TreeNode, Boolean> visited = new HashMap<>();
 
         Queue<TreeNode> que = new ArrayDeque<>();
 
-        que.offer(str);
-        visited.put(str, true);
+        que.offer(targetNode);
+        visited.put(targetNode, true);
 
         int cur = 0;
 
