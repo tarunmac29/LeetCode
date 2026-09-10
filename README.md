@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/tarunmac29/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0704-binary-search](https://github.com/tarunmac29/LeetCode/tree/master/0704-binary-search) |
 | [0977-squares-of-a-sorted-array](https://github.com/tarunmac29/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
+| [1470-shuffle-the-array](https://github.com/tarunmac29/LeetCode/tree/master/1470-shuffle-the-array) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/tarunmac29/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/tarunmac29/LeetCode/tree/master/3876-construct-uniform-parity-array-ii) |
 | [3903-smallest-stable-index-i](https://github.com/tarunmac29/LeetCode/tree/master/3903-smallest-stable-index-i) |
