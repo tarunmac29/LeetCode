@@ -28,7 +28,6 @@ class Solution {
 
         while(!que.isEmpty()){
             int level = que.size();
-
             List<Integer> list = new ArrayList<>();
 
             for(int i = 0; i < level; i++){
@@ -42,12 +41,9 @@ class Solution {
                         }
                     }
                 }
-
             }
-
             ans.add(list);
         }
-
         return ans;
     }
 }
