@@ -21,30 +21,40 @@ class Solution {
     public int maxDepth(Node root) {
         if(root == null) return 0;
 
-        Queue<Node> que = new ArrayDeque<>();
+        // Queue<Node> que = new ArrayDeque<>();
 
-        que.offer(root);
+        // que.offer(root);
 
         int count = 0;
 
-        while(!que.isEmpty()){
-            int level = que.size();
-
-            for(int i = 0; i < level; i++){
-                Node node = que.poll();
-
-                if(node.children != null){
-                    for (Node child : node.children) {
-                        if (child != null) {
-                            que.offer(child);
-                        }
-                    }
+        if(root.children != null){
+            for(Node node : root.children){
+                if(node != null){
+                    count = Math.max(count, maxDepth(node));
                 }
             }
-
-            count++;
         }
 
-        return count;
+        return 1 + count;
+
+        // while(!que.isEmpty()){
+        //     int level = que.size();
+
+        //     for(int i = 0; i < level; i++){
+        //         Node node = que.poll();
+
+        //         if(node.children != null){
+        //             for (Node child : node.children) {
+        //                 if (child != null) {
+        //                     que.offer(child);
+        //                 }
+        //             }
+        //         }
+        //     }
+
+        //     count++;
+        // }
+
+        // return count;
     }
 }
