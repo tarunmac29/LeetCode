@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/tarunmac29/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/tarunmac29/LeetCode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/tarunmac29/LeetCode/tree/master/0054-spiral-matrix) |
+| [0078-subsets](https://github.com/tarunmac29/LeetCode/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/tarunmac29/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/tarunmac29/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/tarunmac29/LeetCode/tree/master/0136-single-number) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/tarunmac29/LeetCode/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/tarunmac29/LeetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/tarunmac29/LeetCode/tree/master/0040-combination-sum-ii) |
+| [0078-subsets](https://github.com/tarunmac29/LeetCode/tree/master/0078-subsets) |
 | [0113-path-sum-ii](https://github.com/tarunmac29/LeetCode/tree/master/0113-path-sum-ii) |
 | [0257-binary-tree-paths](https://github.com/tarunmac29/LeetCode/tree/master/0257-binary-tree-paths) |
 ## Two Pointers
@@ -367,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/tarunmac29/LeetCode/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/tarunmac29/LeetCode/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/tarunmac29/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/tarunmac29/LeetCode/tree/master/0222-count-complete-tree-nodes) |
