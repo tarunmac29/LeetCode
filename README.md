@@ -177,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/tarunmac29/LeetCode/tree/master/0242-valid-anagram) |
 | [0257-binary-tree-paths](https://github.com/tarunmac29/LeetCode/tree/master/0257-binary-tree-paths) |
 | [0392-is-subsequence](https://github.com/tarunmac29/LeetCode/tree/master/0392-is-subsequence) |
+| [0449-serialize-and-deserialize-bst](https://github.com/tarunmac29/LeetCode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0680-valid-palindrome-ii](https://github.com/tarunmac29/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [0940-distinct-subsequences-ii](https://github.com/tarunmac29/LeetCode/tree/master/0940-distinct-subsequences-ii) |
 ## Bracket Sequences
@@ -234,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0404-sum-of-left-leaves](https://github.com/tarunmac29/LeetCode/tree/master/0404-sum-of-left-leaves) |
 | [0429-n-ary-tree-level-order-traversal](https://github.com/tarunmac29/LeetCode/tree/master/0429-n-ary-tree-level-order-traversal) |
 | [0437-path-sum-iii](https://github.com/tarunmac29/LeetCode/tree/master/0437-path-sum-iii) |
+| [0449-serialize-and-deserialize-bst](https://github.com/tarunmac29/LeetCode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/tarunmac29/LeetCode/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0513-find-bottom-left-tree-value](https://github.com/tarunmac29/LeetCode/tree/master/0513-find-bottom-left-tree-value) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/tarunmac29/LeetCode/tree/master/0515-find-largest-value-in-each-tree-row) |
@@ -278,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0337-house-robber-iii](https://github.com/tarunmac29/LeetCode/tree/master/0337-house-robber-iii) |
 | [0404-sum-of-left-leaves](https://github.com/tarunmac29/LeetCode/tree/master/0404-sum-of-left-leaves) |
 | [0437-path-sum-iii](https://github.com/tarunmac29/LeetCode/tree/master/0437-path-sum-iii) |
+| [0449-serialize-and-deserialize-bst](https://github.com/tarunmac29/LeetCode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/tarunmac29/LeetCode/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0513-find-bottom-left-tree-value](https://github.com/tarunmac29/LeetCode/tree/master/0513-find-bottom-left-tree-value) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/tarunmac29/LeetCode/tree/master/0515-find-largest-value-in-each-tree-row) |
@@ -312,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/tarunmac29/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/tarunmac29/LeetCode/tree/master/0404-sum-of-left-leaves) |
 | [0429-n-ary-tree-level-order-traversal](https://github.com/tarunmac29/LeetCode/tree/master/0429-n-ary-tree-level-order-traversal) |
+| [0449-serialize-and-deserialize-bst](https://github.com/tarunmac29/LeetCode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0513-find-bottom-left-tree-value](https://github.com/tarunmac29/LeetCode/tree/master/0513-find-bottom-left-tree-value) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/tarunmac29/LeetCode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/tarunmac29/LeetCode/tree/master/0559-maximum-depth-of-n-ary-tree) |
@@ -357,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0337-house-robber-iii](https://github.com/tarunmac29/LeetCode/tree/master/0337-house-robber-iii) |
 | [0404-sum-of-left-leaves](https://github.com/tarunmac29/LeetCode/tree/master/0404-sum-of-left-leaves) |
 | [0437-path-sum-iii](https://github.com/tarunmac29/LeetCode/tree/master/0437-path-sum-iii) |
+| [0449-serialize-and-deserialize-bst](https://github.com/tarunmac29/LeetCode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/tarunmac29/LeetCode/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0513-find-bottom-left-tree-value](https://github.com/tarunmac29/LeetCode/tree/master/0513-find-bottom-left-tree-value) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/tarunmac29/LeetCode/tree/master/0515-find-largest-value-in-each-tree-row) |
@@ -419,6 +424,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/tarunmac29/LeetCode/tree/master/0303-range-sum-query-immutable) |
+| [0449-serialize-and-deserialize-bst](https://github.com/tarunmac29/LeetCode/tree/master/0449-serialize-and-deserialize-bst) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -445,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0098-validate-binary-search-tree](https://github.com/tarunmac29/LeetCode/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/tarunmac29/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/tarunmac29/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0449-serialize-and-deserialize-bst](https://github.com/tarunmac29/LeetCode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0501-find-mode-in-binary-search-tree](https://github.com/tarunmac29/LeetCode/tree/master/0501-find-mode-in-binary-search-tree) |
 ## Binary Lifting
 |  |
