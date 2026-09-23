@@ -21,9 +21,7 @@ class Solution {
             inMap.put(inorder[i], i);
         }
 
-        TreeNode root = conTree(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1, inMap);
-
-        return root;
+        return conTree(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1, inMap);
     }
 
     public TreeNode conTree(int[] preorder, int preStart, int preEnd, int[] inorder, int inStart, int inEnd, Map<Integer, Integer> inMap){
@@ -32,7 +30,7 @@ class Solution {
         TreeNode root = new TreeNode(preorder[preStart]);
 
         int inRoot = inMap.get(root.val);
-        int numLeft =   inRoot - inStart;
+        int numLeft = inRoot - inStart;
 
         root.left = conTree(preorder, preStart + 1, preStart + numLeft, inorder, inStart, inRoot - 1, inMap);
 
