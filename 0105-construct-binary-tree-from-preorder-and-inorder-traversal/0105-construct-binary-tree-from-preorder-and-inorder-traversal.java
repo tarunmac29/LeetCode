@@ -35,7 +35,6 @@ class Solution {
         root.left = conTree(preorder, preStart + 1, preStart + numLeft, inorder, inStart, inRoot - 1, inMap);
 
         root.right = conTree(preorder, preStart + numLeft + 1, preEnd, inorder, inRoot + 1, inEnd, inMap);
-
         return root;
     }
 }
