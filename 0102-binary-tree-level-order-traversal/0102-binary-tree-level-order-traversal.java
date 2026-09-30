@@ -37,7 +37,7 @@ class Solution {
                 list.add(node.val);
             }
 
-            ans.add(new ArrayList<>(list));
+            ans.add(list);
         }
 
         return ans;
