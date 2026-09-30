@@ -17,9 +17,7 @@ class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         Map<Integer, Integer> inMap = new HashMap<>();
 
-        for(int i = 0; i < inorder.length; i++){
-            inMap.put(inorder[i], i);
-        }
+        for(int i = 0; i < inorder.length; i++) inMap.put(inorder[i], i);
 
         return conTree(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1, inMap);
     }
@@ -35,6 +33,7 @@ class Solution {
         root.left = conTree(preorder, preStart + 1, preStart + numLeft, inorder, inStart, inRoot - 1, inMap);
 
         root.right = conTree(preorder, preStart + numLeft + 1, preEnd, inorder, inRoot + 1, inEnd, inMap);
+
         return root;
     }
 }
