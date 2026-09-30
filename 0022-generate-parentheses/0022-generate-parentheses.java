@@ -1,28 +1,23 @@
 class Solution {
     public List<String> generateParenthesis(int n) {
+
         List<String> ans = new ArrayList<>();
 
-        char[] curr = new char[2 * n];
-
-        solve(ans, curr, 0, 0, 0, n);
+        genCom(n, "", ans, 0, 0, 0);
 
         return ans;
     }
 
-    public static void solve(List<String> ans, char[] curr, int idx, int open, int close, int n){
+    public void genCom(int n, String sb, List<String> ans, int idx, int open, int close){
         if(idx == 2 * n){
-            ans.add(new String(curr));
+            ans.add(sb);
             return;
         }
 
         if(open < n){
-            curr[idx] = '(';
-            solve(ans, curr, idx + 1, open + 1, close, n);
+            genCom(n, sb + "(", ans, idx + 1, open + 1, close);
         }
 
-        if(close < open){
-            curr[idx] = ')';
-            solve(ans, curr, idx + 1, open, close + 1, n);
-        }
+        if(close < open) genCom(n, sb +")", ans, idx + 1, open, close + 1);
     }
 }
