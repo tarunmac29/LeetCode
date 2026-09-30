@@ -17,13 +17,11 @@ class Solution {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> ans = new ArrayList<>();
 
-        if (root == null) {
-            return ans; 
-        }
+        if(root == null) return ans;
 
-        Queue<TreeNode> que = new LinkedList<>();
+        Queue<TreeNode> que = new ArrayDeque<>();
 
-        Stack<List<Integer>> stk = new Stack<>();
+        Stack<List> stk = new Stack<>();
 
         que.offer(root);
 
