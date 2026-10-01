@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/tarunmac29/LeetCode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/tarunmac29/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/tarunmac29/LeetCode/tree/master/0217-contains-duplicate) |
+| [0240-search-a-2d-matrix-ii](https://github.com/tarunmac29/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/tarunmac29/LeetCode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/tarunmac29/LeetCode/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/tarunmac29/LeetCode/tree/master/0303-range-sum-query-immutable) |
@@ -394,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/tarunmac29/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0222-count-complete-tree-nodes](https://github.com/tarunmac29/LeetCode/tree/master/0222-count-complete-tree-nodes) |
+| [0240-search-a-2d-matrix-ii](https://github.com/tarunmac29/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/tarunmac29/LeetCode/tree/master/0268-missing-number) |
 | [0704-binary-search](https://github.com/tarunmac29/LeetCode/tree/master/0704-binary-search) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/tarunmac29/LeetCode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
@@ -417,11 +419,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/tarunmac29/LeetCode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0169-majority-element](https://github.com/tarunmac29/LeetCode/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/tarunmac29/LeetCode/tree/master/0191-number-of-1-bits) |
+| [0240-search-a-2d-matrix-ii](https://github.com/tarunmac29/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 ## Matrix
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/tarunmac29/LeetCode/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/tarunmac29/LeetCode/tree/master/0074-search-a-2d-matrix) |
+| [0240-search-a-2d-matrix-ii](https://github.com/tarunmac29/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/tarunmac29/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Simulation
 |  |
