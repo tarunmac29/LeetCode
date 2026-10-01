@@ -14,14 +14,15 @@
  * }
  */
 class Solution {
-    public boolean vailidate(TreeNode root, long min, long max){
+    public boolean isValidBST(TreeNode root) {
+        return vailid(root, Long.MIN_VALUE, Long.MAX_VALUE);
+    }
+
+    public boolean vailid(TreeNode root, long min, long max){
         if(root == null) return true;
 
         if(root.val <= min || root.val >= max) return false;
 
-        return vailidate(root.left, min, root.val) && vailidate(root.right, root.val, max);
-    }
-    public boolean isValidBST(TreeNode root) {
-        return vailidate(root, Long.MIN_VALUE, Long.MAX_VALUE);
+        return vailid(root.left, min, root.val) && vailid(root.right, root.val, max);
     }
 }
