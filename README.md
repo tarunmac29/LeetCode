@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0977-squares-of-a-sorted-array](https://github.com/tarunmac29/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/tarunmac29/LeetCode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1470-shuffle-the-array](https://github.com/tarunmac29/LeetCode/tree/master/1470-shuffle-the-array) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/tarunmac29/LeetCode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/tarunmac29/LeetCode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3483-unique-3-digit-even-numbers](https://github.com/tarunmac29/LeetCode/tree/master/3483-unique-3-digit-even-numbers) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/tarunmac29/LeetCode/tree/master/3568-minimum-moves-to-clean-the-classroom) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/tarunmac29/LeetCode/tree/master/0392-is-subsequence) |
 | [0509-fibonacci-number](https://github.com/tarunmac29/LeetCode/tree/master/0509-fibonacci-number) |
 | [0940-distinct-subsequences-ii](https://github.com/tarunmac29/LeetCode/tree/master/0940-distinct-subsequences-ii) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/tarunmac29/LeetCode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/tarunmac29/LeetCode/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 ## Stack
 |  |
@@ -218,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/tarunmac29/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/tarunmac29/LeetCode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 ## Tree
 |  |
 | ------- |
