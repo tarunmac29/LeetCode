@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/tarunmac29/LeetCode/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/tarunmac29/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/tarunmac29/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0486-predict-the-winner](https://github.com/tarunmac29/LeetCode/tree/master/0486-predict-the-winner) |
 | [0560-subarray-sum-equals-k](https://github.com/tarunmac29/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0645-set-mismatch](https://github.com/tarunmac29/LeetCode/tree/master/0645-set-mismatch) |
 | [0704-binary-search](https://github.com/tarunmac29/LeetCode/tree/master/0704-binary-search) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0337-house-robber-iii](https://github.com/tarunmac29/LeetCode/tree/master/0337-house-robber-iii) |
 | [0338-counting-bits](https://github.com/tarunmac29/LeetCode/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/tarunmac29/LeetCode/tree/master/0392-is-subsequence) |
+| [0486-predict-the-winner](https://github.com/tarunmac29/LeetCode/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/tarunmac29/LeetCode/tree/master/0509-fibonacci-number) |
 | [0940-distinct-subsequences-ii](https://github.com/tarunmac29/LeetCode/tree/master/0940-distinct-subsequences-ii) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/tarunmac29/LeetCode/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
@@ -161,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0007-reverse-integer](https://github.com/tarunmac29/LeetCode/tree/master/0007-reverse-integer) |
 | [0070-climbing-stairs](https://github.com/tarunmac29/LeetCode/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/tarunmac29/LeetCode/tree/master/0268-missing-number) |
+| [0486-predict-the-winner](https://github.com/tarunmac29/LeetCode/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/tarunmac29/LeetCode/tree/master/0509-fibonacci-number) |
 | [0836-rectangle-overlap](https://github.com/tarunmac29/LeetCode/tree/master/0836-rectangle-overlap) |
 | [3870-count-commas-in-range](https://github.com/tarunmac29/LeetCode/tree/master/3870-count-commas-in-range) |
@@ -173,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0203-remove-linked-list-elements](https://github.com/tarunmac29/LeetCode/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/tarunmac29/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/tarunmac29/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0486-predict-the-winner](https://github.com/tarunmac29/LeetCode/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/tarunmac29/LeetCode/tree/master/0509-fibonacci-number) |
 | [3483-unique-3-digit-even-numbers](https://github.com/tarunmac29/LeetCode/tree/master/3483-unique-3-digit-even-numbers) |
 ## Memoization
@@ -522,4 +526,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0836-rectangle-overlap](https://github.com/tarunmac29/LeetCode/tree/master/0836-rectangle-overlap) |
+## Minimax
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/tarunmac29/LeetCode/tree/master/0486-predict-the-winner) |
+## Game Theory
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/tarunmac29/LeetCode/tree/master/0486-predict-the-winner) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [0486-predict-the-winner](https://github.com/tarunmac29/LeetCode/tree/master/0486-predict-the-winner) |
 <!---LeetCode Topics End-->
