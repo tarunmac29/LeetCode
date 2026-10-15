@@ -8,15 +8,12 @@ class Solution {
     }
 
     public static void reverse(int[] nums, int start, int end){
-        int left = start;
-        int right = end;
-
-        while(left <= right){
-            int temp = nums[left];
-            nums[left] = nums[right];
-            nums[right] = temp;
-            left++;
-            right--;
+        while(start <= end){
+            int temp = nums[start];
+            nums[start] = nums[end];
+            nums[end] = temp;
+            start++;
+            end--;
         }
     }
 }
