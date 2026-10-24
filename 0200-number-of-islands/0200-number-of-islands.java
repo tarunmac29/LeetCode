@@ -18,14 +18,14 @@ class Solution {
             for(int col = 0; col < m; col++){
                 if(!visited[row][col] && grid[row][col] == '1'){
                     count++;
-                    dfs(row, col, visited, grid, n, m);
+                    bfs(row, col, visited, grid, n, m);
                 }
             }
         }
 
         return count;
     }
-    private void dfs(int row, int col, boolean[][] visited, char[][] grid, int n, int m){
+    private void bfs(int row, int col, boolean[][] visited, char[][] grid, int n, int m){
         Queue<Pair> que = new LinkedList<>();
 
         que.offer(new Pair(row, col));
