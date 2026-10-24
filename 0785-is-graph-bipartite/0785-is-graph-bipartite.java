@@ -7,7 +7,7 @@ class Solution {
         for(int i = 0; i < n; i++){
             if(color[i] != 0) continue;
 
-            Queue<Integer> que = new ArrayDeque<>();
+            Queue<Integer> que = new LinkedList<>();
             que.offer(i);
             color[i] = 1;
 
