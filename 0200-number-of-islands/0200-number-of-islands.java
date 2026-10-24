@@ -18,40 +18,30 @@ class Solution {
             for(int col = 0; col < m; col++){
                 if(!visited[row][col] && grid[row][col] == '1'){
                     count++;
-                    bfs(row, col, visited, grid, n, m);
+                    dfs(row, col, visited, grid, n, m);
                 }
             }
         }
 
         return count;
     }
-    private void bfs(int row, int col, boolean[][] visited, char[][] grid, int n, int m){
-        Queue<Pair> que = new LinkedList<>();
+    private void dfs(int row, int col, boolean[][] visited, char[][] grid, int n, int m){
 
-        que.offer(new Pair(row, col));
         visited[row][col] = true;
 
-        while(!que.isEmpty()){
-            Pair pair = que.poll();
+        for(int delRow = -1; delRow <= 1; delRow++){
+            for(int delCol = -1; delCol <= 1; delCol++){
+                if(Math.abs(delRow) + Math.abs(delCol) != 1) continue;
 
-            int frow = pair.frow;
-            int fcol = pair.fcol;
+                int nRow = row + delRow;
+                int nCol = col + delCol;
 
-            for(int delRow = -1; delRow <= 1; delRow++){
-                for(int delCol = -1; delCol <= 1; delCol++){
-                    if(Math.abs(delRow) + Math.abs(delCol) != 1) continue;
-
-                    int nRow = frow + delRow;
-                    int nCol = fcol + delCol;
-
-                    if(nRow >= 0 && nRow < n &&
-                        nCol >= 0 && nCol < m &&
-                        !visited[nRow][nCol] && 
-                        grid[nRow][nCol] == '1'
-                    ){
-                        visited[nRow][nCol] = true;
-                        que.offer(new Pair(nRow, nCol));
-                    }
+                if(nRow >= 0 && nRow < n &&
+                    nCol >= 0 && nCol < m &&
+                    !visited[nRow][nCol] && 
+                    grid[nRow][nCol] == '1'
+                ){
+                    dfs(nRow, nCol, visited, grid, n, m);
                 }
             }
         }
