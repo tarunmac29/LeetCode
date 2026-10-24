@@ -10,7 +10,6 @@ class Solution {
                 dfs(i, isConnected, visited);
             }
         }
-
         return count;       
     }
 
